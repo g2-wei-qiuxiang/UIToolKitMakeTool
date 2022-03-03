@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <uie:ObjectField name="scene_reference" allow-scene-objects="false" style="flex-direction: row; justify-content: space-between; height: 18px;">
+        <Style src="ObjectSelectTool.uss" />
+    </uie:ObjectField>
+    <ui:IMGUIContainer name="warning_container">
+        <Style src="ObjectSelectTool.uss" />
+        <ui:Label text="設定アセットファイルまたは操作シーンをアサインしてください" name="no_assign_warning_text" style="font-size: 11px; color: rgb(255, 238, 0);" />
+    </ui:IMGUIContainer>
+    <ui:IMGUIContainer name="ui_container">
+        <Style src="ObjectSelectTool.uss" />
+        <ui:IMGUIContainer name="button_gui_container" style="flex-direction: column;">
+            <ui:Button text="生成モード" name="create_mode" class="ButtonStyle" style="height: 40px; width: auto;" />
+            <ui:Button name="other_mode1" text="他モード1" class="ButtonStyle" style="height: 41px;" />
+            <ui:Button text="他モード2" name="other_mode2" class="ButtonStyle" style="height: 41px;" />
+        </ui:IMGUIContainer>
+        <ui:IMGUIContainer name="create_mode_ui" style="background-color: rgb(35, 77, 31);">
+            <ui:Label text="オブジェクトリスト" name="scroll_view_label" />
+            <ui:VisualElement style="flex-direction: row; align-items: stretch; justify-content: center;">
+                <ui:Button text="+" name="plus_button" class="ButtonStyle" style="-unity-text-align: middle-center; width: 30px; height: 30px;" />
+                <ui:Button text="-" name="minus_button" class="ButtonStyle" style="width: 30px; height: 30px;" />
+            </ui:VisualElement>
+            <ui:ScrollView name="object_select_scroll_view" style="height: 171px; width: auto; border-left-color: rgb(248, 219, 1); border-right-color: rgb(248, 219, 1); border-top-color: rgb(248, 219, 1); border-bottom-color: rgb(248, 219, 1); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px;" />
+        </ui:IMGUIContainer>
+    </ui:IMGUIContainer>
+    <ui:Button text="try" name="Button" style="position: absolute; height: 43px; bottom: 0; right: 0; width: 87px;">
+        <Style src="ObjectSelectTool.uss" />
+    </ui:Button>
+</ui:UXML>

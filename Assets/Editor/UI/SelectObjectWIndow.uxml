@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Label text="path:" name="path" />
+    <ui:Label text="type:" name="type" />
+    <ui:Label text="list" name="list" style="-unity-font-style: bold; font-size: 14px; color: rgb(229, 233, 0);" />
+    <ui:ListView focusable="true" name="list_view" style="height: 400px; width: 349px; background-color: rgb(66, 70, 0);" />
+</ui:UXML>
