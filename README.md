@@ -20,5 +20,9 @@ UI Builderを使用して、オブジェクトをシーンに配置するツー�
 ・スクリプトで上記UIの動作を実装  
 <img width="395" alt="スクリーンショット 2022-03-24 18 29 43" src="https://user-images.githubusercontent.com/59904787/159885893-c6272c86-94a8-4760-a842-9974abb33233.png">  
 動画  
-https://user-images.githubusercontent.com/59904787/159887097-a1a12f92-c6d0-4c45-ad84-25f712c4c4df.mp4
+
+
+
+
+https://user-images.githubusercontent.com/59904787/159887442-e085bad3-c5c1-4415-9b55-8250f3810191.mp4
 
